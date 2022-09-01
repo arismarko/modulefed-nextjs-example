@@ -6,9 +6,9 @@
       "./userorders"
     ],
     "scripts": {
-      "start": "concurrently \"cd itemcatalogue; npm run dev\" \"cd home; npm run dev\" \"cd userorders; npm run dev\"",
-      "build": "concurrently \"cd itemcatalogue; npm run build\" \"cd home; npm run build\" \"cd userorders; npm run build\"",
-      "serve": "concurrently \"cd itemcatalogue; npm run start\" \"cd home; npm run start\" \"cd userorders; npm run start\""
+      "start": "concurrently \"cd itemcatalogue; npm run dev\" \"cd home;  npm run dev\"",
+      "build": "concurrently \"cd itemcatalogue; npm run build\" \"cd home;  npm run build\"",
+      "serve": "concurrently \"cd itemcatalogue; npm run start\" \"cd home;  npm run start\""
     },
     "dependencies": {
       "concurrently": "^7.0.0"
